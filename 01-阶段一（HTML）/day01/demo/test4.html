@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--
+      <link>链接一个外部样式表;
+      属性:
+      href 规定被链接文档的位置。
+      media 规定被链接文档将被显示在什么设备上。
+      rel 规定当前文档与被链接文档之间的关系。只有 rel 属性的 "stylesheet" 值得到了所有浏览器的支持。其他值只得到了部分地支持。
+      type 规定被链接文档的 MIME 类型。
+
+  -->
+  <link rel="stylesheet" type="text/css" href="theme.css" />
+  <link rel="stylesheet" type="text/css" href="print.css" media="print"/>
+  <title>链接</title>
+</head>
+<body>
+<!--
+    <nav> <nav> 标签定义导航链接的部分。
+
+-->
+<nav>
+  <a href="index.asp">Home</a> |
+  <a href="html5_meter.asp">Previous</a> |
+  <a href="html5_noscript.asp">Next</a>
+</nav>
+
+<!--
+<a> 标签定义超链接，用于从一张页面链接到另一张页面。
+
+<a> 元素最重要的属性是 href 属性，它指示链接的目标。
+在所有的浏览器中,链接的默认外观是这样的:
+未被访问的链接带有下划线而且是蓝色的;已被访问的链接带有下划线而且是紫色的;活动链接带有下划线而且是红色的;
+不过为了需求,可以使用 CSS 伪类 向文本超链接添加复杂而多样的样式。
+如果不使用 href 属性，则不可以使用如下属性：download, hreflang, media, rel, target 以及 type 属性。
+属性:
+download 规定被下载的超链接目标。必须和href属性同时使用;
+href 规定链接指向的页面的 URL。
+media 规定被链接文档是为何种媒介/设备优化的。
+-->
+<!--d链接到同一页面的不同位置
+  通过<a>标签的name属性定义.再引用name连接到相应位置
+
+-->
+<p><a href="http://www.w3school.com.cn">W3School</a></p>
+<p>
+  <a href="#C4">查看 Chapter 4。</a>
+</p>
+
+<h2>Chapter 1</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 2</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 3</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2><a name="C4">Chapter 4</a></h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 5</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 6</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 7</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 8</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 9</h2>
+<p>This chapter explains ba bla bla</p>
+
+</body>
+</html>
